@@ -1,0 +1,27 @@
+@model IReadOnlyList<PerfDashboard.Models.Metric>
+
+@{
+    ViewData["Title"] = "Performance Dashboard";
+}
+
+<h1>Performance Metrics Dashboard</h1>
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Timestamp (UTC)</th>
+            <th>CPU Usage (%)</th>
+            <th>Memory Usage (MB)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var metric in Model)
+        {
+            <tr>
+                <td>@metric.Timestamp.ToString("HH:mm:ss")</td>
+                <td>@metric.CpuUsage</td>
+                <td>@metric.MemoryUsage</td>
+            </tr>
+        }
+    </tbody>
+</table>
