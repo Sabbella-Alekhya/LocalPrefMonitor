@@ -1,1 +1,16 @@
-A dashboard application built using ASP.NET Core MVC to monitor performance metrics of a .NET application using Azure Application Insights
+
+PERFORMANCE
+ MONITORING
+ DASHBOARD
+
+CAMPANY : CODTECH IT SOLUTIONS
+
+NAME : SABBELLA ALEKHYA
+
+INTERIN ID : CT08DL1177
+
+DOMAIN : .NET WEB DEVELOPMENT
+
+DURATION : 8 WEEKS
+
+MENTOR : NEELA SANTOSH
